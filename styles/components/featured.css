@@ -71,9 +71,10 @@
 
 .featured__img-wrapper img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
+  aspect-ratio: 1.5 / 1;
 }
 
 .featured__img-wrapper::after {
