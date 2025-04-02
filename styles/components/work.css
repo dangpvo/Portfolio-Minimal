@@ -67,6 +67,10 @@
   font-size: var(--size-sm);
 }
 
+.work__project-btn.ieee-btn {
+  margin-left: 1rem;
+}
+
 .work__project-subtitle {
   display: none;
 }
