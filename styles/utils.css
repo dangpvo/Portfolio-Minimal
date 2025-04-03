@@ -78,6 +78,6 @@
 /* 2xl */
 @media (min-width: 1536px) {
   .container {
-    max-width: 475px;
+    max-width: 1536px;
   }
 }

@@ -39,8 +39,9 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
-  list-style-type: "\1F44D";
-  padding-left: 1em;
+  /* list-style-type: "\1F44D"; */
+  list-style: none;
+  padding-left: 0;
 }
 
 .about__list {
@@ -48,9 +49,17 @@
   color: var(--clr-slate600);
 }
 
-.about__list::before {
-  content: "";
-  margin-left: 0.5em;
+.about__list a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about__list i {
+  margin-right: 0.5rem;
+  font-size: var(--size-3xl);
 }
 
 .about__img {

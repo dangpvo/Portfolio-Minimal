@@ -21,15 +21,14 @@
 
 .work__img-wrapper {
   position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
 }
 
 .work__img-wrapper img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
+  aspect-ratio: 1 / 1;
 }
 
 .work__img-wrapper::after {
@@ -66,6 +65,10 @@
 
 .work__project-btn {
   font-size: var(--size-sm);
+}
+
+.work__project-btn.ieee-btn {
+  margin-left: 1rem;
 }
 
 .work__project-subtitle {
