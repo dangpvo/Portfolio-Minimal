@@ -49,9 +49,9 @@
   height: auto;
 }
 
-.techstack__content-p {
+.techstack__content-text {
   font-size: var(--size-2xl);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* xs */
